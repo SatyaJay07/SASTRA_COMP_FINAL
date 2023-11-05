@@ -1,0 +1,59 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./SASTRA_Slides.jpg'); /* Replace with the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Make the background cover the full height of the viewport */
+  background-color: #f0f0f0; /* Light gray background color */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin-top: 50px; /* Adjust as needed */
+  max-width: 400px; /* Set a maximum width for the container */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #3B2B98;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 400px; /* Set a maximum width for the container */
+  }
+  
+
+label {
+  margin: 10px 0;
+  color: white;
+}
+
+.admin-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.room-number-note {
+  position: absolute;
+  bottom: 20px; /* Adjust this value as needed */
+  right: 20px; /* Adjust this value as needed */
+  color: #000; /* Black color */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+

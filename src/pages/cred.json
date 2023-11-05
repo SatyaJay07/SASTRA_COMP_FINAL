@@ -1,0 +1,17 @@
+
+{
+    "users": [
+      {
+        "username": "satya",
+        "password": "satya123",
+        "roomNo"  : "VB2-I254"
+      },
+      {
+        "username": "kumar",
+        "password": "password",
+        "roomNo"  : "KA-F001"
+      }
+      
+    ]
+}
+  
